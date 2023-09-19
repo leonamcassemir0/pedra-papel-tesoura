@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+header {
+    padding: 10px;
+    background: linear-gradient(to right, #FE2CF1, #01DFBA, #0C7CEA);
+    box-shadow: 3px 1px 8px black;
+}
+header h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-shadow: 3px 1px 5px black;
+}
+header h4{
+    margin-top: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 1px 4px black;
+}
+
+
+/*OPÇÕES DO JOGO*/
+.align{
+    display: flex;
+    justify-content: space-around;
+}
+.player-options img,
+.enemy-options img{
+    max-width: 150px;
+    opacity: 0.3;
+}
+
